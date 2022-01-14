@@ -77,6 +77,10 @@ ul li a:hover {
 .influencer-camera {
   /* background-image: url("images/Circle design.svg"); */
   background-position: center;
+  transition: transform 2s;
+}
+.influencer-camera:hover {
+  transform: scale(1.5) rotate(-15deg);
 }
 .brand-logo {
   margin: 5em 0;
@@ -161,7 +165,7 @@ footer {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   justify-items: center;
-  background-color: black;
+  background: #0a0826;
   color: white;
   padding: 3em 0;
 }
