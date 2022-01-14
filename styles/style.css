@@ -50,6 +50,7 @@ ul li a:hover {
   color: #e02c6d;
   transition: color 0.8;
 }
+
 .influencer {
   display: flex;
   align-items: center;
@@ -73,6 +74,13 @@ ul li a:hover {
 .influencer-camera {
   width: 40%;
 }
+.influencer-camera {
+  /* background-image: url("images/Circle design.svg"); */
+  background-position: center;
+}
+.brand-logo {
+  margin: 5em 0;
+}
 .brand-logo ul {
   display: flex;
   flex-wrap: wrap;
@@ -85,4 +93,38 @@ ul li a:hover {
 hr {
   /* border: 1px solid #a1a1a1; */
   background-color: #aaaaa;
+}
+/*----------------------------------------------
+style collection items 
+-------------------------------------------------*/
+
+.collections-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 2em 0;
+}
+.collection-item {
+  box-shadow: 8px 10px 8px 20px whitesmoke;
+  padding: 1em;
+  border-radius: 5px;
+}
+.collection-title {
+  text-align: center;
+}
+.fa-star,
+.fa-star-half {
+  color: #fb8200;
+}
+.price,
+.item-info {
+  margin-top: 1em;
+}
+.item-info {
+  padding: 1em;
+}
+.item-info p {
+  text-align: justify;
+}
+.collection-img {
+  width: 300px;
 }
