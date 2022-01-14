@@ -1,0 +1,88 @@
+/*
+common css
+*/
+html {
+  @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500&display=swap");
+}
+body {
+  font-family: "Lobster", cursive;
+  font-family: "Poppins", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em 0;
+}
+.nav-logo {
+  font-size: 2em;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar ul li {
+  list-style: none;
+  margin-right: 1em;
+}
+.navbar ul li a {
+  color: #3a3a3a;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  overflow: hidden;
+}
+/*--------------------------
+navbar icon style
+-----------------------------*/
+.search-icon,
+.add-to-card-icon {
+  font-size: 1.5em;
+}
+ul li a:hover {
+  color: #e02c6d;
+  transition: color 0.8;
+}
+.influencer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn {
+  background-color: #e02c6d;
+  padding: 8px 20px;
+  color: white;
+  border-radius: 25px;
+  font-weight: 700;
+}
+.influencer-title,
+.influencer p {
+  margin-bottom: 1em;
+}
+.influencer p {
+  text-align: justify;
+}
+.influencer-info,
+.influencer-camera {
+  width: 40%;
+}
+.brand-logo ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2em 0;
+}
+.brand-logo ul li {
+  list-style: none;
+}
+hr {
+  /* border: 1px solid #a1a1a1; */
+  background-color: #aaaaa;
+}
