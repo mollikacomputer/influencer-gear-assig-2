@@ -128,3 +128,18 @@ style collection items
 .collection-img {
   width: 300px;
 }
+.customer-review ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.customer-review ul li {
+  list-style: none;
+}
+.customer-review img {
+  width: 56px;
+}
+.public-title {
+  text-align: center;
+  padding: 3em 0;
+}
