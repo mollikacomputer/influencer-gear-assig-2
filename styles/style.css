@@ -128,6 +128,17 @@ style collection items
 .collection-img {
   width: 300px;
 }
+.align-right {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+/*--------------------------------------
+start customer review section style
+-----------------------------------------*/
+.customer-review {
+  padding-bottom: 3em;
+}
 .customer-review ul {
   display: flex;
   flex-wrap: wrap;
@@ -143,3 +154,22 @@ style collection items
   text-align: center;
   padding: 3em 0;
 }
+/*end collection item style*/
+
+/* start footer style  */
+footer {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+  background-color: black;
+  color: white;
+  padding: 3em 0;
+}
+.footer-sociel-icon {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5em;
+}
+
+/* end footer style  */
