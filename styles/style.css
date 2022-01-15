@@ -75,8 +75,9 @@ ul li a:hover {
   width: 40%;
 }
 .influencer-camera {
-  /* background-image: url("images/Circle design.svg"); */
-  background-position: center;
+  background-image: url(../images/Circle\ design.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
   transition: transform 2s;
 }
 .influencer-camera:hover {
@@ -95,7 +96,6 @@ ul li a:hover {
   list-style: none;
 }
 hr {
-  /* border: 1px solid #a1a1a1; */
   background-color: #aaaaa;
 }
 /*----------------------------------------------
@@ -169,6 +169,12 @@ footer {
   color: white;
   padding: 3em 0;
 }
+footer,
+footer h2,
+footer p,
+.footer-sociel-icon {
+  padding-bottom: 0.5em;
+}
 .footer-sociel-icon {
   width: 15%;
   display: flex;
@@ -188,8 +194,7 @@ Media Query for mobile device
   footer,
   .navbar ul,
   .brand-logo ul,
-  .customer-review ul,
-  .align-right {
+  .customer-review ul {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 1fr;
