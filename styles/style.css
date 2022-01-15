@@ -183,23 +183,27 @@ Media Query for mobile device
 @media only screen and (max-width: 600px) {
   .influencer,
   .collections-items,
-  .brand-logo {
+  .brand-logo,
+  .navbar,
+  footer,
+  .navbar ul,
+  .brand-logo ul,
+  .customer-review ul,
+  .align-right {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    padding: 1fr;
+    justify-items: center;
   }
 
   .influencer-info,
-  .influencer-camera {
+  .influencer-camera,
+  .collection-item {
     width: 90%;
     padding: 2em;
   }
   .influencer img {
     width: 100%;
-  }
-
-  .navbar,
-  footer {
-    display: none;
   }
 }
 @media only screen and (min-width: 601px) and (max-width: 1023px) {
@@ -209,10 +213,22 @@ Media Query for mobile device
     grid-template-columns: repeat(2, 1fr);
   }
   .influencer-info,
-  .influencer-camera {
+  .influencer-camera,
+  .collection-item {
     width: 90%;
     padding: 2em;
   }
+  .influencer img {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .collections-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
   .influencer img {
     width: 100%;
   }
